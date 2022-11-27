@@ -232,6 +232,18 @@ Initial firmware sent to be flashed at the factory
 ### Build Notes
 Defining the changes in each build. *Note that if a number is missing, that build failed the deployment process.*
 
+#### b256
+*Nov 24, 2022*
+
+* Updated ethernet mode script to support new MAC address range for manufacturing purposes
+
+#### b255
+*Nov 18, 2022*
+
+* Warp core update
+* No longer compiling python twisted package - fixing build issue
+
+
 #### b253
 *Feb 8, 2022*
 
