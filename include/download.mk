@@ -8,6 +8,7 @@
 
 PROJECT_GIT = https://git.openwrt.org
 
+PROJECT_TYPE7 = https://github.com/EyitopeIO
 OPENWRT_GIT = $(PROJECT_GIT)
 LEDE_GIT = $(PROJECT_GIT)
 
