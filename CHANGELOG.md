@@ -237,6 +237,11 @@ Initial firmware sent to be flashed at the factory
 ### Build Notes
 Defining the changes in each build. *Note that if a number is missing, that build failed the deployment process.*
 
+#### b258
+*Feb 15, 2024*
+
+* Fix for Omega2 Pro DTS - now using all 32 MB of flash storage for initial image
+
 #### b257
 *Jun 28, 2022*
 
