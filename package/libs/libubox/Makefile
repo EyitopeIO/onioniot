@@ -18,6 +18,7 @@ PKG_MAINTAINER:=Felix Fietkau <nbd@nbd.name>
 PKG_BUILD_DEPENDS:=lua
 HOST_BUILD_DEPENDS:=libjson-c/host
 HOST_BUILD_PREFIX:=$(STAGING_DIR_HOST)
+HOST_PATCH_DIR := patches-host
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/host-build.mk

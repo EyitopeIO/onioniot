@@ -274,6 +274,8 @@ TAR:=tar
 FIND:=find
 PATCH:=patch
 PYTHON:=python
+PYTHON3:=python3
+NINJA:=ninja
 
 INSTALL_BIN:=install -m0755
 INSTALL_DIR:=install -d -m0755

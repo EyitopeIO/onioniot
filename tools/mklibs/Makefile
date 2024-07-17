@@ -14,6 +14,7 @@ PKG_SOURCE_URL:=http://ftp.de.debian.org/debian/pool/main/m/mklibs/
 PKG_HASH:=ccb1023dc1729c5a37ca6c3eca8e4bac3491116763c8820dfce8eea4845c8567
 
 HOST_FIXUP:=autoreconf
+HOST_CPPFLAGS += -std=gnu++98
 
 include $(INCLUDE_DIR)/host-build.mk
 
