@@ -237,6 +237,11 @@ Initial firmware sent to be flashed at the factory
 ### Build Notes
 Defining the changes in each build. *Note that if a number is missing, that build failed the deployment process.*
 
+#### b259
+*Sep 9, 2024*
+
+* Additional Fix for Omega2 Pro image to use all 32 MB of flash storage for initial image
+
 #### b258
 *Feb 15, 2024*
 
