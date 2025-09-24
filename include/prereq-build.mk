@@ -36,7 +36,7 @@ $(eval $(call SetupHostCommand,gcc, \
 	gcc6 --version | grep gcc, \
 	gcc7 --version | grep gcc, \
 	gcc8 --version | grep gcc, \
-	gcc9 --version | grep gcc, \
+	gcc-9 --version | grep gcc, \
 	gcc --version | grep Apple.LLVM ))
 
 $(eval $(call TestHostCommand,working-gcc, \
@@ -55,7 +55,7 @@ $(eval $(call SetupHostCommand,g++, \
 	g++6 --version | grep g++, \
 	g++7 --version | grep g++, \
 	g++8 --version | grep g++, \
-	g++9 --version | grep g++, \
+	g++-9 --version | grep g++, \
 	g++ --version | grep Apple.LLVM ))
 
 $(eval $(call TestHostCommand,working-g++, \
